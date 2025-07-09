@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Medium Patient Information Form</title>
+ <style>
+  body {
+   font-family: Arial, sans-serif;
+   background: #f0f0f0;
+   padding: 20px;
+  }
+  form {
+   background: #ffffff;
+   max-width: 600px;
+   margin: auto;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  h2 {
+   text-align: center;
+   margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+   }
+   input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   }
+   button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   }
+   button:hover {
+    background: #218838;
+   }
+  </style>
+ </head>
+ <body>
+ 
+  <form>
+   <h2>Patient Information</h2>
+   <label for="name">Full Name</label>
+   <input type="text" id="name" name="Samruddhi Namdev Kharade" required>
+ 
+   <lable for="dob">Date of Birth</lable>
+   <input type="date" id="dob" name="10/07/2006" required>
+ 
+   <label for="gender">Gender</lable>
+   <select id="gender" name="gender">
+    <option value="">select</option>
+    <option>MAle</option>
+    <option>Female</option>
+    <option>Other</option>
+   </select>
+ 
+   <lable for="phone">Phone Number</lable>
+   <input type="tel" id="phone" name="7558441528">
+ 
+   <lable for="email">Email Address</lable>
+   <input type="email" id="email" name="samrudddhikharade2006@gmail.com">
+ 
+   <lable for="address">Address</lable>
+   <textarea id="address" name="Mangaon" rows="2"></textarea>
+ 
+   <label for="history">Medical History (e.g., allergies, conditions)</lable>
+   <textarea id="history" name="history" rows="3"></textarea>
+ 
+   <lable for="medication">Current Medications</lable>
+   <textarea id="medications" name="medication" rows="2"></textarea>
+ 
+   <lable for="emergency">Emergency Contact Number</lable>
+   <input type="tel" id="emergency" name="emergency_contact">
+ 
+   <button type="submit">Submit</button>
+  </form>
+ 
+  </body>
+  </html> 
+
